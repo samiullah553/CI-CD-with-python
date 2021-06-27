@@ -1,6 +1,5 @@
 #This is aboute how to get enable and config mode in python.
-#modification are done only on config mode so if you want to modify the device configuration
-#so how to get it.
+#modification are done only in config mode so if you want to modify the device configuration.
 #Author Samiullah
 #Email: sameullah553@gmail.com
 
@@ -17,7 +16,7 @@ R1 ={
         "secret":"cisco12"
         }
 net_connect =ConnectHandler(**R1)
-#enable_mode just use enable() function.
+#To access enable_mode use enable() function.
 net_connect.enable()
 #For configuration mode we use config_mode() function.
 net_connect.config_mode()
