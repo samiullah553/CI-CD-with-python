@@ -1,3 +1,4 @@
+import django
 print("hello world")
 print("hello world again and agian")
 x=10
